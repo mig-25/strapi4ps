@@ -29,6 +29,7 @@ services:
       - strapi
     depends_on:
       - postgresDB
+    # platform: linux/arm64/v8
 
   postgresDB:
     image: postgres:12.0-alpine
@@ -45,8 +46,12 @@ services:
       - "5432:5432"
     networks:
       - strapi
+    # platform: linux/arm64/v8
+
 
 networks:
   strapi:
     name: Strapi
     driver: bridge
+
+
