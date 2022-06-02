@@ -2,7 +2,7 @@
 
 Create the folder data in the root
 
-### Build image
+## Build image
   docker build -t mystrapi:latest .
 
 ## Container
