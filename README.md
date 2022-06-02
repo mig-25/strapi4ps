@@ -14,3 +14,6 @@ Create the folder data in the root
 ### Full 
     docker-compose up -d  
     This will run strapi inside a docker container and the database in its own container.
+
+### Rebuild container after changes in image
+  docker-compose up -d --build
