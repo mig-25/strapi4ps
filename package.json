@@ -21,7 +21,8 @@
     "knex": "^2.1.0",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "strapi-plugin-graphs-builder": "^1.0.0"
+    "strapi-plugin-graphs-builder": "^1.0.0",
+    "strapi-plugin-navigation": "^2.0.13"
   },
   "author": {
     "name": "A Strapi developer"
