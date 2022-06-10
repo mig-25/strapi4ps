@@ -12,6 +12,11 @@ module.exports = ({ env }) => ({
         model: "scheduler",
       },
     },
-    
+    placeholder: {
+      enabled: true,
+      config: {
+        size: 10,
+      },
+    },
     //...
   });

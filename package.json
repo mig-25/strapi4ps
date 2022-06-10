@@ -27,6 +27,7 @@
     "strapi-plugin-import-export-entries": "^1.3.6",
     "strapi-plugin-navigation": "^2.0.13",
     "strapi-plugin-notes": "^1.0.1",
+    "strapi-plugin-placeholder": "^4.1.7",
     "strapi-tiptap-editor": "^0.7.13"
   },
   "author": {
