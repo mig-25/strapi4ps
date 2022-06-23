@@ -13,6 +13,7 @@
   "dependencies": {
     "@exfabrica/strapi-plugin-awesome-help": "^1.0.8",
     "@offset-dev/strapi-calendar": "^0.0.4",
+    "@relate-app/strapi-plugin-gatsby": "^1.0.6",
     "@strapi/plugin-gatsby-preview": "^0.1.0",
     "@strapi/plugin-graphql": "4.2.0",
     "@strapi/plugin-i18n": "4.2.0",

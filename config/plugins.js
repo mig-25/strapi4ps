@@ -6,6 +6,10 @@ module.exports = ({ env }) => ({
     'entity-notes': {
       enabled: true,
     },
+    gatsby: {
+      enabled: true,
+      sourcePlugin: '@relate-app/gatsby-source-strapi',
+    },
     scheduler: {
       enabled: true,
       config: {
