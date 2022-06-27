@@ -3,6 +3,9 @@ module.exports = ({ env }) => ({
     "import-export-entries": {
       enabled: true,
     },
+    "generate-data": {
+      enabled: true,
+  },
     'entity-notes': {
       enabled: true,
     },
