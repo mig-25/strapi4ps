@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_renew_education_renew_applications",
+  "info": {
+    "displayName": "renew_application",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

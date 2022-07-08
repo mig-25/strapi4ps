@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_steering_committee_steering_committees",
+  "info": {
+    "displayName": "steering_committee",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Participant": {
+      "type": "enumeration",
+      "enum": [
+        "Business",
+        "Student",
+        "School",
+        "Organizer"
+      ],
+      "default": "Organizer",
+      "required": true
+    },
+    "Role": {
+      "type": "enumeration",
+      "enum": [
+        "board member",
+        "student representative"
+      ]
+    },
+    "Telephone": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Notes": {
+      "type": "richtext"
+    }
+  }
+}

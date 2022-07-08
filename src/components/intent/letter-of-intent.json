@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_intent_letter_of_intents",
+  "info": {
+    "displayName": "letter_of_intent",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "new",
+        "follow up",
+        "closed",
+        "ready"
+      ]
+    },
+    "Notes": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "granted_educations",
+  "info": {
+    "singularName": "granted-education",
+    "pluralName": "granted-educations",
+    "displayName": "Granted Education",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Planing": {
+      "displayName": "plan_education",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "planing.plan-education"
+    },
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Code": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "open_application": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date"
+    },
+    "steering_committee": {
+      "displayName": "steering_committee",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "steering-committee.steering-committee"
+    }
+  }
+}

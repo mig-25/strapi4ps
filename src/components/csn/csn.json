@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_csn_csns",
+  "info": {
+    "displayName": "CSN",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Action": {
+      "type": "string"
+    }
+  }
+}

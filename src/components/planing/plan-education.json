@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_planing_plan_educations",
+  "info": {
+    "displayName": "plan_education",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MYH": {
+      "displayName": "MYH",
+      "type": "component",
+      "repeatable": true,
+      "component": "myh.myh"
+    },
+    "CSN": {
+      "type": "component",
+      "repeatable": true,
+      "component": "csn.csn"
+    }
+  }
+}

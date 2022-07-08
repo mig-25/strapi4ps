@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_education_new_applications",
+  "info": {
+    "displayName": "New application",
+    "icon": "university",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descritpion": {
+      "type": "richtext"
+    }
+  }
+}

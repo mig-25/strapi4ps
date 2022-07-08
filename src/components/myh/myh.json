@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_myh_myhs",
+  "info": {
+    "displayName": "MYH",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "Action": {
+      "type": "string"
+    }
+  }
+}
