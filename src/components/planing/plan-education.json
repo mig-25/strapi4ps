@@ -17,6 +17,31 @@
       "type": "component",
       "repeatable": true,
       "component": "csn.csn"
+    },
+    "education_plan": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "education_plan_doc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "rules_steering_comitee": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "rules_steering_comitee_doc": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
