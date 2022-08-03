@@ -5,6 +5,7 @@ build:
     NODE_ENV: production
     DATABASE_URL: $DATABASE_URL
     PORT: $PORT
+    WEBSITE_URL: $WEBSITE_URL
 
 run:
   web: yarn start
