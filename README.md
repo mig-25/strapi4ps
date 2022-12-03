@@ -17,3 +17,13 @@ Create the folder data in the root
 
 ### Rebuild container after changes in image
   docker-compose up -d --build
+
+### Push code to github
+
+### Log in to digital ocean
+  1. Under access, launch droplet console and
+  2. cd into project directory
+  3. run git pull
+  4. docker-compose up -d --build
+  5. Get the public ip address of digital ocean virtual machine
+  6. in browser: public_ip/1337/admin
