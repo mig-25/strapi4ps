@@ -9,6 +9,8 @@ COPY ./package.json ./
 COPY ./yarn.lock ./
 ENV PATH /opt/node_modules/.bin:$PATH
 RUN yarn config set network-timeout 600000 -g
+RUN npm install @mui/x-date-pickers
+RUN npm install @tiptap/pm
 RUN yarn install
 WORKDIR /opt/app
 COPY ./ .
